@@ -7,13 +7,18 @@ a {
     text-decoration: none;
 }
 
-.topnav {
+.nav {
+    list-style:none;
+    text-align:center;
     background-color: #222222;
-    overflow: hidden;
 }
 
-.topnav a {
-    float: left;
+.nav li {
+    display:inline;
+}
+
+.nav a {
+    display:inline-block;
     color: rgb(235, 235, 235);
     text-align: center;
     padding: 14px 16px;
@@ -21,12 +26,12 @@ a {
     text-decoration: none;
 }
 
-.topnav a:hover {
+.nav a:hover {
     background-color: #687891;
     color: rgb(235, 235, 235);
 }
 
-.topnav a.active {
+.nav a.active {
     background-color: #314463;
     color:  rgb(235, 235, 235);
 }
