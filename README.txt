@@ -1,0 +1,1 @@
+This is my portfolio website where all of my programming and non-programming projects will live, as well as information about myself.
