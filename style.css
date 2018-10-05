@@ -49,6 +49,11 @@ a {
     color:  rgb(235, 235, 235);
 }
 
+.dropdown {
+    float:left;
+    overflow:hidden;
+}
+
 .footer {
     position:absolute;
     right: 0;
