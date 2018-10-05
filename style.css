@@ -70,13 +70,22 @@ a {
     font-size:20px;
     color:white;
     background:black;
-    opacity:0.75;
     text-align:center;
 }
 
 .title a {
     color:rgb(235, 235, 235) !important;
     text-align:center;
+}
+
+@keyframes projectSquareImgAnimationOn {
+    from {opacity:1}
+    to {opacity:0.7}
+}
+
+@keyframes titleFadeInAnimationOn {
+    from {opacity: 0.0}
+    to {opacity: 0.7;}
 }
 
 .projectSquare:hover .title {
@@ -87,11 +96,20 @@ a {
     display:table;
     margin: -9px -16px;
     padding:14px 16px;
+    animation-name:titleFadeInAnimationOn;
+    animation-duration:.5s;
 }
 
 .projectSquare:hover {
-    background-color:grey;
-    opacity:50%;
+    display:block;
+    background:black;
+    opacity:1;
+}
+
+.projectSquare:hover img {
+    opacity:0.7;
+    animation-name:projectSquareImgAnimationOn;
+    animation-duration:.5s;
 }
 
 .footer {
