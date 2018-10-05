@@ -1,5 +1,18 @@
 body {
+    background-color:efefef;
     font-family: Verdana;
+}
+
+.left {
+    text-align:left;
+}
+
+.right {
+    text-align:right;
+}
+
+.center {
+    text-align:center;
 }
 
 a {
@@ -34,4 +47,14 @@ a {
 .nav a.active {
     background-color: #314463;
     color:  rgb(235, 235, 235);
+}
+
+.footer {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
