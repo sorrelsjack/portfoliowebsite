@@ -16,19 +16,19 @@ body {
     text-align:center;
 }
 
-.marqueeInstance {
+.marquee-instance {
     color:greenyellow;
     text-align:right;
 }
 
-.marqueeBackground {
-    display:inline-block;
+.marquee-background {
+    display:table;
     width:100%;
     margin:0;
     background-color:#000000;
 }
 
-.projectSquare {
+.project-square {
     height: 240px;
     width: 383px;
     display:block;
@@ -102,7 +102,7 @@ a {
     to {opacity: 0.7;}
 }
 
-.projectSquare:hover .title {
+.project-square:hover .title {
     width:383px;
     height:30px;
     top:20%;
@@ -117,13 +117,13 @@ a {
     */
 }
 
-.projectSquare:hover {
+.project-square:hover {
     display:block;
     background:black;
     opacity:1;
 }
 
-.projectSquare:hover img {
+.project-square:hover img {
     opacity:0.7;
     animation-name:projectSquareImgAnimationOn;
     animation-duration:.5s;
