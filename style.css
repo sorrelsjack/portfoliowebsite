@@ -16,12 +16,16 @@ body {
     text-align:center;
 }
 
+.marqueeInstance {
+    color:greenyellow;
+    text-align:right;
+}
+
 .marqueeBackground {
     display:inline-block;
     width:100%;
     margin:0;
     background-color:#000000;
-    padding:14px 16px;
 }
 
 .projectSquare {
@@ -108,6 +112,9 @@ a {
     padding:14px 16px;
     animation-name:titleFadeInAnimationOn;
     animation-duration:.5s;
+    /*
+    Each span needs its own ID so that margins and positions can be specified on a per-div basis.
+    */
 }
 
 .projectSquare:hover {
