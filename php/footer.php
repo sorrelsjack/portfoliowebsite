@@ -1,2 +1,2 @@
 <?php?>
-<div class="footer">© Jack Sorrels 2018 🦌</div>
+<footer>© Jack Sorrels 2018 🦌</footer>

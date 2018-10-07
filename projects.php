@@ -38,6 +38,5 @@
         <a href=thesisproject.html><img id="demigirl-flag" src="assets\demigirl.png" style="width:383px; height:240px;"></a>
     </div>
 </p>
-
 <?php include ('php/footer.php'); ?>
 </body>
