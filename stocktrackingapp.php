@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Stock Tracking Application</title>
     <meta charset="utf-8">
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/> 
@@ -8,14 +8,14 @@
 
 <body>
 <ul class="nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a class="active" href="projects.html">Projects</a></li>
-    <li><a href="resume.html">Resume</a></li>
+    <li><a href="/index.php">Home</a></li>
+    <li><a href="/about.php">About</a></li>
+    <li><a class="active" href="/projects.php">Projects</a></li>
+    <li><a href="/resume.php">Resume</a></li>
 </ul>
 
 <a href="https://github.com/sorrelsjack/financialapp">Github</a>
 <p><h1>Architecture</h1></p>
 
-<div class="footer">© Jack Sorrels 2018 🦌</div>
+<?php include ('php/footer.php'); ?>
 </body>

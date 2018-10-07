@@ -1,21 +1,22 @@
 <!DOCTYPE HTML>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Projects</title>
     <meta charset="utf-8">
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
+    <script src="css/bootstrap/js/bootstrap.js"></script>
 </head>
 
 <body>
 <ul class="nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a class="active" href="projects.html">Projects</a></li>
-    <li><a href="resume.html">Resume</a></li>
+    <li><a href="/index.php">Home</a></li>
+    <li><a href="/about.php">About</a></li>
+    <li><a class="active" href="/projects.php">Projects</a></li>
+    <li><a href="/resume.php">Resume</a></li>
 </ul>
 
 <div class="project-square" id="stock-tracker-app-square">
-    <a href=stocktrackingapp.html><img src="assets\resized stock app gif.gif"></a>
+    <a href=/stocktrackingapp.php><img src="assets\resized stock app gif.gif"></a>
     <span class="title"><a href=stocktrackingapp.html>Stock Tracking Application</a></span>
 </div>
 
@@ -38,5 +39,5 @@
     </div>
 </p>
 
-<div class="footer">© Jack Sorrels 2018 🦌</div>
+<?php include ('php/footer.php'); ?>
 </body>
