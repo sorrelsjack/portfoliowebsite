@@ -3,16 +3,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Stock Tracking Application</title>
     <meta charset="utf-8">
-    <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/> 
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
+    <script src="script.js"></script> 
 </head>
 
 <body>
-<ul class="nav">
-    <li><a href="/index.php">Home</a></li>
-    <li><a href="/about.php">About</a></li>
-    <li><a class="active" href="/projects.php">Projects</a></li>
-    <li><a href="/resume.php">Resume</a></li>
-</ul>
+<?php include ('php/nav.php')?>
 
 <a href="https://github.com/sorrelsjack/financialapp">Github</a>
 <p><h1>Architecture</h1></p>

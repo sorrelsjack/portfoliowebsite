@@ -5,15 +5,17 @@
     <meta charset="utf-8">
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
     <script src="css/bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script> 
 </head>
 
 <body>
-<ul class="nav">
+<?php include ('php/nav.php')?>
+<!--<ul class="nav">
     <li><a href="/index.php">Home</a></li>
     <li><a href="/about.php">About</a></li>
     <li><a class="active" href="/projects.php">Projects</a></li>
     <li><a href="/resume.php">Resume</a></li>
-</ul>
+</ul>-->
 
 <div class="project-square" id="stock-tracker-app-square">
     <a href=/stocktrackingapp.php><img src="assets\resized stock app gif.gif"></a>

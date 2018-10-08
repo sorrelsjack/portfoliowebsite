@@ -3,11 +3,13 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Resume</title>
     <meta charset="utf-8">
-    <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/> 
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
+    <script src="script.js"></script>  
 </head>
 
 <body>
-    <ul class="nav">
+<?php include ('php/nav.php')?>
+    <!--<ul class="nav">
         <li><a href="/index.php">Home</a></li>
         <li><a href="/about.php">About</a></li>
         <li><a href="/projects.php">Projects</a></li>
@@ -15,7 +17,7 @@
                 <li><a href="/stocktrackingapp.php">Stock Tracking Application</a></li>
             </ul>
         <li><a class="active" href="/resume.php">Resume</a></li>
-    </ul>
+    </ul>-->
 
     <div id="resume">
         <p>On this page, I will list out my previous and current positions. These are also viewable on <a href="https://www.linkedin.com/in/jacksorrels/">LinkedIn</a> or can be downloaded as a <a href="assets/jasorrels technical resume.pdf" download>PDF</a>.</p>
