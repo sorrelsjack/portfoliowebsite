@@ -40,11 +40,11 @@ echo "hey, you're visitor #$stringCounterNumber!";
         <li><a href="/resume.php">Resume</a></li>
     </ul>-->
 
-    <div id="entire-marquee">
+    <!--<div id="entire-marquee">
         <span class="marquee-background">
             <span class="marquee-instance" id="actual-marquee">Hey!</span>
         </span>
-    </div>
+    </div>-->
 
     <main>
     <div>

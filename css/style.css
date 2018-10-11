@@ -25,18 +25,28 @@ body {
     text-align:center;
 }
 
-.marquee-instance {
+/*.marquee-instance {
+    height: 100%;
     overflow:hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    box-sizing: border-box;
     color:greenyellow;
-    text-align:right;
+    transform: translate (2em,0);
 }
 
 .marquee-background {
+    height: 50px;
+    margin: 25px auto;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #000;
+    margin: 25px auto; 
     display:table;
     width:100%;
     margin:0;
     background-color:#000000;
-}
+}*/
 
 .project-square {
     height: 240px;
