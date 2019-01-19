@@ -21,7 +21,7 @@
     }    
 </style>
 
-<footer class="footer text-center">
+<footer class="footer text-center bg-primary">
     <div class="container">
         <span class="text-muted">
             © 2018 Copyright: <a href="./">Jack Sorrels 🦌</a>
