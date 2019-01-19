@@ -1,0 +1,21 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?jacksorrels.com$
+RewriteCond %{REQUEST_URI} !
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /nyn/$1
+
+# Change yourdomain.com to be your primary domain again. 
+# Change 'subfolder' to be the folder you will use for your primary domain 
+# followed by / then the main file for your site, index.php, index.html, etc.
+RewriteCond %{HTTP_HOST} ^(www.)?jacksorrels.com$ 
+RewriteRule ^(/)?$ index.php [L]
+RewriteRule ^(home/)?$ index.php [L]
+
+
+RewriteRule ^(about/)?$ about.php [L]
+RewriteRule ^(projects/)?$ projects.php [L]
+RewriteRule ^(resume/)?$ resume.php [L]
