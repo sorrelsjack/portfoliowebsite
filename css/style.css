@@ -11,10 +11,23 @@ body {
     margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
+.project-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.project-desc {
+    display:block;
+    margin-top: 20px;
+    margin-left:30%;
+    margin-right:30%;
+}
+
 .project-square {
     overflow:none;
     display:block;
-    position: relative;
+    position:relative;
     margin:auto;
     margin-left:40%;
     margin-right:40%;
@@ -32,7 +45,7 @@ body {
 }
 
 .project-square:hover .title {
-    top:40%;
+    top:25%;
     position:absolute;
     display:table;
     padding:14px 16px;
