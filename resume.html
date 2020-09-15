@@ -4,11 +4,13 @@
     <title>Resume</title>
     <meta charset="utf-8">
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
-    <script src="script.js"></script>  
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 
-<body>
-<?php include ('php/nav.php')?>
+<body onload="setNavAndFooter()">
+    <div id="nav"></div>
     <div id="resume" class="main-info">
         <div class="row">
             <div class="col"></div>
@@ -73,5 +75,5 @@
             <div class="col"></div>
         </div>
     </div>
-    <?php include ('php/footer.php'); ?>
+    <div id="footer"></div>
 </body>

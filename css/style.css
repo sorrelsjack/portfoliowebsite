@@ -1,3 +1,7 @@
+* {
+    font-family: Work Sans;
+}
+
 html {
     position:relative;
     min-height:100%;
@@ -8,7 +12,6 @@ body {
     min-height: 100vh;
     height:100%;
     background-color:#efefef;
-    font-family: 'Work Sans', Verdana;
     margin:0;
     padding-bottom:50px;
 }
@@ -133,15 +136,4 @@ a {
     opacity:0.7;
     animation-name:projectSquareImgAnimationOn;
     animation-duration:.5s;
-}
-
-footer {
-    position:absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height:20px;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
 }

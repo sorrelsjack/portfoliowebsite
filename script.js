@@ -14,3 +14,8 @@ function changeActiveLink() {
     }
 }
 window.onload = changeActiveLink;
+
+const setNavAndFooter = () => {
+    $("#nav").load("bookends/nav.html");
+    $("#footer").load("bookends/footer.html");
+}
