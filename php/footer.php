@@ -21,10 +21,10 @@
     }    
 </style>
 
-<footer class="footer text-center bg-primary">
+<footer class="footer text-center bg-primary mt-4">
     <div class="container">
         <span class="text-muted">
-            © 2018 Copyright: <a href="./">Jack Sorrels 🦌</a>
+            © 2019 Copyright: <a href="./">Jack Sorrels 🦌</a>
         </span>
     </div>
 </footer>
