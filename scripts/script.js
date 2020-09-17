@@ -1,21 +1,16 @@
-function changeActiveLink() {
-    var currentTitle = document.title;
-    if(currentTitle == "Home") {
-        document.getElementById('nav-home').className = "nav-item active";
-    }
-    if(currentTitle == "About") {
-        document.getElementById('nav-about').className = "nav-item active";
-    }
-    if(currentTitle === "Work" || currentTitle === "Stock Tracking Application") {
-        document.getElementById('nav-work').className = "nav-item active"; //not giving class active as of now
-    }
-    if(currentTitle == "Resume") {
-        document.getElementById('nav-resume').className = "nav-item active";
-    }
+var initialize = () => {
+    setNavAndFooter();
 }
-window.onload = changeActiveLink;
 
-const setNavAndFooter = () => {
-    $("#nav").load("bookends/nav.html");
-    $("#footer").load("bookends/footer.html");
+var setNavAndFooter = () => {
+    $("#nav").load("bookends/nav.html", changeActiveLink);
+    $("#footer").load("bookends/footer.html", changeActiveLink);
+}
+
+var changeActiveLink = () => {
+    var currentTitle = document.title;
+    if (currentTitle.includes("Home")) document.getElementById('nav-home').className = "nav-item active";
+    else if (currentTitle.includes("About")) document.getElementById('nav-about').className = "nav-item active";
+    else if (currentTitle.includes("Work")) document.getElementById('nav-work').className = "nav-item active";
+    else if (currentTitle.includes("Resume")) document.getElementById('nav-resume').className = "nav-item active";
 }
