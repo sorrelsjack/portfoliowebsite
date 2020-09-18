@@ -9906,6 +9906,20 @@ main {
   min-height: 100%;
   margin-bottom: 60px;
   /* Margin bottom by footer height */
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+.welcome-section {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+.welcome-section img {
+  margin-bottom: 20px;
 }
 
 .project-section {
