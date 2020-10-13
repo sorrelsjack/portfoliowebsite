@@ -14,44 +14,60 @@
 <body onload="setNavAndFooter()">
     <div id="nav"></div>
     <main class="main-info">
-        <div class="row">
-            <div class="col"></div>
-            <!--Filler column-->
-            <div class="col-8 text-center">
-                <section>
-                    <h3>Welcome!</h3>
-                    <p>I'm a professional with experience across several different domains. I'm a junior developer,
-                        lexicographer, and linguist.</p>
-                    <img src="assets/dictionary.jpg" class="img-fluid" width="40%" height="40%">
-                </section>
-                <!--TODO: An interactable array of words to describe me-->
-                <hr />
-                <section>
-                    <div id="work-grid">
-                        <p>
-                            <h3>Sample of my Work</h3>
-                        </p>
-                        <div class="container">
-                            <!-- TODO: Add latest stuff, like Meal Wheel and Gender Diary -->
-                            <div class="row">
-                                <div class="col-sm">
-                                    <a href="#"><img src="assets\resized stock app gif.gif" class="img-fluid"></a>
-                                </div>
-                                <div class="col-sm">
-                                    <a href="#"><img src="assets\demigirl.png" class="img-fluid"
-                                            style="width:383px; height:240px;"></a>
-                                </div>
-                                <div class="col-sm">
-                                    <a href="#"><img src="assets\events api gif.gif" class="img-fluid"
-                                            style="width:383px; height:240px;"></a>
-                                </div>
+        <div>
+            <section class="welcome-section home-section">
+                <div>
+                    <h1>Welcome!</h1>
+                    <p>I'm a professional with experience across several different domains.</p>
+                    <p>I'm a junior developer, lexicographer, and linguist.</p>
+                    <button class="gradient-button rounded-button mt-4">About Me</button>
+                </div>
+                <div>
+                    <img src="assets/dictionary.jpg" class="img-fluid">
+                </div>
+            </section>
+            <!--TODO: An interactable array of words to describe me-->
+            <section class="home-section bg-light">
+                <div>
+                    <img src="assets/dictionary.jpg" class="img-fluid box-shadow">
+                </div>
+                <div class="ml-4">
+                    <h3>About Me</h3>
+                    <div>
+                        Hi there! My name's Jack Sorrels, and this is my portfolio website. I currently reside in
+                        Orlando, FL and I'm a developer, copywriter, and lexicographer. Woah, lexicographer? Now that's
+                        a
+                        five dollar word. Worry not, though! Just a fancy word meaning I can write definitions for
+                        dictionaries. With all these cool skills, some might call me a jack of all trades. Surely
+                        nobody's
+                        ever
+                    </div>
+                    <button class="standard-button rounded-button mt-4">Learn More</button>
+                </div>
+            </section>
+            <section class="home-section">
+                <div id="work-grid">
+                    <h3 class="text-center">Sample of my Work</h3>
+                    <div class="container">
+                        <!-- TODO: Add latest stuff, like Meal Wheel and Gender Diary -->
+                        <div class="row">
+                            <div class="col-sm">
+                                <a href="#"><img src="assets\resized stock app gif.gif" class="img-fluid"></a>
+                            </div>
+                            <div class="col-sm">
+                                <a href="#"><img src="assets\demigirl.png" class="img-fluid"
+                                        style="width:383px; height:240px;"></a>
+                            </div>
+                            <div class="col-sm">
+                                <a href="#"><img src="assets\events api gif.gif" class="img-fluid"
+                                        style="width:383px; height:240px;"></a>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
-            <div class="col"></div>
-            <!--Filler column-->
+                </div>
+            </section>
+            <section class="text-center contact-section p-5">If you'd like to get in touch, you can reach me via email at
+                sorrelsjack@gmail.com or via LinkedIn</section>
         </div>
     </main>
     <div id="footer"></div>
