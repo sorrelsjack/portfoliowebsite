@@ -104,7 +104,7 @@ h3 {
     text-transform: uppercase;
 }
 
-.home-section {
+.content-section {
     display: flex;
     padding-left: 15%;
     padding-right: 15%;
@@ -112,7 +112,7 @@ h3 {
     padding-bottom: 5%;
 }
 
-.home-section div {
+.content-section div {
     flex: 1;
     margin: auto;
 }
