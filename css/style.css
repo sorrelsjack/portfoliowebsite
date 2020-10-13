@@ -23,6 +23,11 @@ h3 {
     text-align:center;
 }
 
+.project-section img {
+    width:383px; 
+    height:240px;
+}
+
 .project-desc {
     display:block;
     margin-top: 20px;
@@ -51,7 +56,7 @@ h3 {
 }
 
 .project-square:hover .title {
-    top:25%;
+    top:40%;
     position:absolute;
     display:table;
     padding:14px 16px;
