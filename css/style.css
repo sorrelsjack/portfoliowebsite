@@ -194,3 +194,20 @@ button:focus {
 .box-shadow {
     box-shadow: -20px -20px 0px 0px #6b7c8c;
 }
+
+.top-banner {
+    position: relative;
+}
+
+.top-banner img {
+    width: 100%;
+}
+
+.top-banner span {
+    color: white;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
